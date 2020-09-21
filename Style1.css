@@ -1,0 +1,103 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 10px;
+}
+
+.header{
+	background-color: #B0E0E6;
+	padding: 10px;
+	text-align: center;
+	color: purple;
+	text-transform: uppercase; 
+
+
+}
+.topnav{
+	overflow: hidden;
+	background-color: #FF69B4;
+}
+
+.topnav a{
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: bold;
+
+}
+
+.topnav a:hover{
+	background-color: 	#7B68EE;
+	color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  background-color:#E6E6FA;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: justify;
+
+}
+
+.footer{
+	background-color:#B0E0E6;
+	padding: 10px;
+	text-align: center;
+	margin-top: 177%
+}
+
+.footer p:hover{
+	background-color:#FF69B4;
+	color: black;
+}
+
+.img{
+width: 30%;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+
+.rightcolumn {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+}
+
+.fakeimg {
+  background-color: #E6E6FA;
+  width: 90%;
+  padding: 20px;
+}
+
+input[type=text]:focus {
+  width: 50%;
+}
+
+.baru{
+	background-color: pink;
+	padding: 140px;
+}
+
+.tour {
+  background-color:#EE82EE;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: justify;
+
+}
